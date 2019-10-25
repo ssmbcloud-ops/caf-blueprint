@@ -1,0 +1,36 @@
+{
+    "identity": {
+        "type": "SystemAssigned"
+    },
+    "location": "eastus",
+	"properties": {
+		"resourceGroups": {
+		},
+		"parameters": {
+			"Policy_CostCenter_Tag": {
+				"value": "test123"
+			},
+			"Policy_Allowed-Locations": {
+				"value": ["eastus","eastus2"]
+			},
+			"Policy_Resource-Types-DENY": {
+				"value": ["automation"]
+			},
+			"Policy_Allowed-StorageAccount-SKUs": {
+				"value": ["Standard_LRS"]
+			},
+			"Policy_Allowed-VM-SKUs": {
+				"value": ["Standard_A1_v2"]
+			},
+			"Organization_Name": {
+				"value": "bpkeyvault001"
+			},
+			"LogAnalytics_DataRetention": {
+				"value": 365
+			},
+			"LogAnalytics_Location": {
+				"value": "East US"
+			}
+		}
+	}
+}
