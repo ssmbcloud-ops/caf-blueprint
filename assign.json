@@ -4,6 +4,7 @@
     },
     "location": "eastus",
 	"properties": {
+		"blueprintId": "",
 		"resourceGroups": {
 		},
 		"parameters": {
