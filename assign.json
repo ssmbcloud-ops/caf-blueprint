@@ -11,16 +11,16 @@
 			"Policy_CostCenter_Tag": {
 				"value": "test123"
 			},
-			"Policy_Allowed-Locations": {
+			"Policy_Allowed_Locations": {
 				"value": ["eastus","eastus2"]
 			},
-			"Policy_Resource-Types-DENY": {
+			"Policy_Resource_Types_DENY": {
 				"value": ["automation"]
 			},
-			"Policy_Allowed-StorageAccount-SKUs": {
+			"Policy_Allowed_StorageAccount_SKUs": {
 				"value": ["Standard_LRS"]
 			},
-			"Policy_Allowed-VM-SKUs": {
+			"Policy_Allowed_VM_SKUs": {
 				"value": ["Standard_A1_v2"]
 			},
 			"Organization_Name": {

@@ -12,28 +12,28 @@
         },
         "allowedValues": []
       },
-      "Policy_Allowed-Locations": {
+      "Policy_Allowed_Locations"": {
         "type": "array",
         "metadata": {
           "displayName": "Which Azure Regions will you allow resources to be built in?",
-          "description": "Policy_Allowed-Locations",
+          "description": "Policy_Allowed_Locations"",
           "strongType": "location"
         },
         "defaultValue": []
       },
-      "Policy_Resource-Types-DENY": {
+      "Policy_Resource_Types_DENY": {
         "type": "array",
         "metadata": {
           "displayName": "Select the Azure Resource Types that you will DENY",
-          "description": "Policy_Resource-Types-DENY",
+          "description": "Policy_Resource_Types_DENY",
           "strongType": "resourceTypes"
         }
       },
-      "Policy_Allowed-StorageAccount-SKUs": {
+      "Policy_Allowed_StorageAccount_SKUs": {
         "type": "array",
         "metadata": {
           "displayName": "Storage Account SKUs you want to ALLOW",
-          "description": "Policy_Allowed-StorageAccount-SKUs",
+          "description": "Policy_Allowed_StorageAccount_SKUs",
           "strongType": "storageSKUs"
         },
         "defaultValue": [
@@ -47,11 +47,11 @@
           "Standard_ZRS"
         ]
       },
-      "Policy_Allowed-VM-SKUs": {
+      "Policy_Allowed_VM_SKUs": {
         "type": "array",
         "metadata": {
           "displayName": "Virtual Machine SKUs you want to ALLOW",
-          "description": "Policy_Allowed-VM-SKUs"
+          "description": "Policy_Allowed_VM_SKUs"
         },
         "defaultValue": [
           "Standard_B2ms",
