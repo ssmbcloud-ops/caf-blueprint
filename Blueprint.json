@@ -12,11 +12,11 @@
         },
         "allowedValues": []
       },
-      "Policy_Allowed_Locations"": {
+      "Policy_Allowed_Locations": {
         "type": "array",
         "metadata": {
           "displayName": "Which Azure Regions will you allow resources to be built in?",
-          "description": "Policy_Allowed_Locations"",
+          "description": "Policy_Allowed_Locations",
           "strongType": "location"
         },
         "defaultValue": []
